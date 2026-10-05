@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Cinzel:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Royal Hindu Theme (Default) */
+    --background: 40 100% 98%;
+    --foreground: 20 100% 15%;
+    --card: 40 80% 94%;
+    --card-foreground: 20 100% 15%;
+    --popover: 40 100% 98%;
+    --popover-foreground: 20 100% 15%;
+    --primary: 25 100% 50%;
+    /* Royal Saffron */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 45 100% 50%;
+    /* Bright Gold */
+    --secondary-foreground: 20 100% 15%;
+    --muted: 40 40% 85%;
+    --muted-foreground: 25 20% 25%;
+    --accent: 350 80% 40%;
+    /* Deep Maroon */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 40 50% 80%;
+    --input: 40 50% 80%;
+    --ring: 25 100% 50%;
+    --chart-1: 25 100% 50%;
+    --chart-2: 45 100% 50%;
+    --chart-3: 350 80% 40%;
+    --chart-4: 120 80% 30%;
+    --chart-5: 280 80% 40%;
+    --radius: 1rem;
+
+    /* Gradients */
+    --theme-gradient: linear-gradient(135deg, #FF9933 0%, #D44500 100%);
+    --theme-gradient-secondary: linear-gradient(135deg, #FFD700 0%, #B8860B 100%);
+  }
+
+  [data-theme="ocean"] {
+    /* Ocean Blue Dark Theme */
+    --background: 220 50% 4%;
+    --foreground: 210 40% 98%;
+    --card: 220 50% 8%;
+    --card-foreground: 210 40% 98%;
+    --popover: 220 50% 4%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 195 90% 50%;
+    /* Neon Cyan */
+    --primary-foreground: 220 50% 4%;
+    --secondary: 210 90% 40%;
+    /* Deep Blue */
+    --secondary-foreground: 210 40% 98%;
+    --muted: 220 30% 20%;
+    --muted-foreground: 215 20% 85%;
+    --accent: 175 90% 45%;
+    /* Aquamarine */
+    --accent-foreground: 220 50% 4%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 40% 15%;
+    --input: 220 40% 15%;
+    --ring: 195 90% 50%;
+    --chart-1: 195 90% 50%;
+    --chart-2: 210 90% 40%;
+    --chart-3: 175 90% 45%;
+    --chart-4: 250 80% 60%;
+    --chart-5: 200 80% 50%;
+
+    /* Gradients */
+    --theme-gradient: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+    --theme-gradient-secondary: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+  }
+
+  [data-theme="cosmic"] {
+    /* Cosmic Ocean / Spiritual Theme */
+    --background: 275 60% 3%;
+    --foreground: 280 20% 95%;
+    --card: 275 50% 8%;
+    --card-foreground: 280 20% 95%;
+    --popover: 275 60% 3%;
+    --popover-foreground: 280 20% 95%;
+    --primary: 290 90% 60%;
+    /* Ethereal Magenta/Violet */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 250 80% 50%;
+    /* Deep Cosmic Purple */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 275 30% 20%;
+    --muted-foreground: 280 20% 85%;
+    --accent: 190 90% 55%;
+    /* Glowing Astral Cyan */
+    --accent-foreground: 275 60% 3%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 275 40% 20%;
+    --input: 275 40% 20%;
+    --ring: 290 90% 60%;
+    --chart-1: 290 90% 60%;
+    --chart-2: 250 80% 50%;
+    --chart-3: 190 90% 55%;
+    --chart-4: 320 80% 60%;
+    --chart-5: 220 80% 60%;
+
+    /* Gradients */
+    --theme-gradient: linear-gradient(135deg, #bdc3c7 0%, #2c3e50 100%);
+    /* Replaced below */
+    --theme-gradient: linear-gradient(135deg, #bc4e9c 0%, #f80759 100%);
+    --theme-gradient-secondary: linear-gradient(135deg, #8E2DE2 0%, #4A00E0 100%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
+  .sanskrit-text {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+  }
+
+  .cinzel-text {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--theme-gradient);
+  }
+
+  .bg-theme-gradient {
+    background-image: var(--theme-gradient);
+  }
+
+  .bg-theme-gradient-secondary {
+    background-image: var(--theme-gradient-secondary);
+  }
+
+  .glass-panel {
+    @apply bg-card/80 backdrop-blur-md border border-border/50 shadow-xl;
+  }
+
+  /* Smooth animations */
+  .animate-fade-in {
+    animation: fadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+
+    50% {
+      transform: translateY(-10px);
+    }
+
+    100% {
+      transform: translateY(0px);
+    }
+  }
+
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+
+  /* Glow effects */
+  .glow-primary {
+    box-shadow: 0 0 20px -5px hsl(var(--primary) / 0.5);
+  }
+}
+
+/* Global Custom Scrollbar - Hidden Completely for Premium Cinematic Look */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  transition: all 0.3s ease-in-out;
+}
+
+*:focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 2px;
+}

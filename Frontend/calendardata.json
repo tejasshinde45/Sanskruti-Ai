@@ -1,0 +1,615 @@
+{
+  "year": 2026,
+  "calendar_type": "Hindu Panchang (Drik, IST)",
+  "months": {
+    "01": {
+      "2026-01-01": [
+        {
+          "name_en": "New Year",
+          "name_mr": "नवीन वर्ष",
+          "type": "Festival"
+        }
+      ],
+      "2026-01-13": [
+        {
+          "name_en": "Lohri",
+          "name_mr": "लोहरी",
+          "type": "Festival"
+        }
+      ],
+      "2026-01-14": [
+        {
+          "name_en": "Makar Sankranti",
+          "name_mr": "मकर संक्रांत",
+          "type": "Festival"
+        },
+        {
+          "name_en": "Shattila Ekadashi",
+          "name_mr": "षटतिला एकादशी",
+          "type": "Ekadashi",
+          "tithi_en": "Ekadashi",
+          "tithi_mr": "एकादशी"
+        }
+      ],
+      "2026-01-15": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh",
+          "tithi_en": "Trayodashi",
+          "tithi_mr": "त्रयोदशी"
+        }
+      ],
+      "2026-01-18": [
+        {
+          "name_en": "Paush Amavasya",
+          "name_mr": "पौष अमावस्या",
+          "type": "Amavasya",
+          "tithi_en": "Amavasya",
+          "tithi_mr": "अमावस्या"
+        }
+      ],
+      "2026-01-29": [
+        {
+          "name_en": "Jaya Ekadashi",
+          "name_mr": "जया एकादशी",
+          "type": "Ekadashi",
+          "tithi_en": "Ekadashi",
+          "tithi_mr": "एकादशी"
+        }
+      ],
+      "2026-01-30": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh",
+          "tithi_en": "Trayodashi",
+          "tithi_mr": "त्रयोदशी"
+        }
+      ]
+    },
+    "02": {
+      "2026-02-01": [
+        {
+          "name_en": "Magha Purnima",
+          "name_mr": "माघ पौर्णिमा",
+          "type": "Purnima",
+          "tithi_en": "Purnima",
+          "tithi_mr": "पौर्णिमा"
+        }
+      ],
+      "2026-02-13": [
+        {
+          "name_en": "Vijaya Ekadashi",
+          "name_mr": "विजया एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-02-14": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-02-15": [
+        {
+          "name_en": "Maha Shivratri",
+          "name_mr": "महाशिवरात्री",
+          "type": "Festival"
+        }
+      ],
+      "2026-02-17": [
+        {
+          "name_en": "Magha Amavasya",
+          "name_mr": "माघ अमावस्या",
+          "type": "Amavasya"
+        }
+      ],
+      "2026-02-27": [
+        {
+          "name_en": "Amalaki Ekadashi",
+          "name_mr": "आमलकी एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-02-28": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ]
+    },
+    "03": {
+      "2026-03-03": [
+        {
+          "name_en": "Holi",
+          "name_mr": "होळी",
+          "type": "Festival"
+        },
+        {
+          "name_en": "Phalguna Purnima",
+          "name_mr": "फाल्गुन पौर्णिमा",
+          "type": "Purnima"
+        }
+      ],
+      "2026-03-15": [
+        {
+          "name_en": "Papmochani Ekadashi",
+          "name_mr": "पापमोचनी एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-03-16": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-03-19": [
+        {
+          "name_en": "Amavasya",
+          "name_mr": "अमावस्या",
+          "type": "Amavasya"
+        }
+      ],
+      "2026-03-26": [
+        {
+          "name_en": "Rama Navami",
+          "name_mr": "राम नवमी",
+          "type": "Festival"
+        }
+      ],
+      "2026-03-29": [
+        {
+          "name_en": "Kamada Ekadashi",
+          "name_mr": "कामदा एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-03-30": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ]
+    },
+    "04": {
+      "2026-04-02": [
+        {
+          "name_en": "Hanuman Jayanti",
+          "name_mr": "हनुमान जयंती",
+          "type": "Jayanti"
+        },
+        {
+          "name_en": "Purnima",
+          "name_mr": "पौर्णिमा",
+          "type": "Purnima"
+        }
+      ],
+      "2026-04-13": [
+        {
+          "name_en": "Varuthini Ekadashi",
+          "name_mr": "वरुथिनी एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-04-15": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-04-16": [
+        {
+          "name_en": "Amavasya",
+          "name_mr": "अमावस्या",
+          "type": "Amavasya"
+        }
+      ],
+      "2026-04-19": [
+        {
+          "name_en": "Akshaya Tritiya",
+          "name_mr": "अक्षय तृतीया",
+          "type": "Festival",
+          "tithi_en": "Tritiya",
+          "tithi_mr": "तृतीया"
+        }
+      ],
+      "2026-04-25": [
+        {
+          "name_en": "Sita Navami",
+          "name_mr": "सीता नवमी",
+          "type": "Festival"
+        }
+      ]
+    },
+    "05": {
+      "2026-05-01": [
+        {
+          "name_en": "Maharashtra Din",
+          "name_mr": "महाराष्ट्र दिन",
+          "type": "Festival"
+        }
+      ],
+      "2026-05-05": [
+        {
+          "name_en": "Angarki Sankashti Chaturthi",
+          "name_mr": "अंगारकी संकष्टी चतुर्थी",
+          "type": "Chaturthi"
+        }
+      ],
+      "2026-05-09": [
+        {
+          "name_en": "Maharana Pratap Jayanti",
+          "name_mr": "महाराणा प्रताप जयंती",
+          "type": "Jayanti"
+        }
+      ],
+      "2026-05-13": [
+        {
+          "name_en": "Apara Ekadashi",
+          "name_mr": "अपरा एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-05-14": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        },
+        {
+          "name_en": "Chhatrapati Sambhaji Maharaj Jayanti",
+          "name_mr": "छत्रपती संभाजी महाराज जयंती",
+          "type": "Jayanti"
+        }
+      ],
+      "2026-05-31": [
+        {
+          "name_en": "Ahilyabai Holkar Jayanti",
+          "name_mr": "अहिल्याबाई होळकर जयंती",
+          "type": "Jayanti"
+        }
+      ]
+    },
+    "06": {
+      "2026-06-11": [
+        {
+          "name_en": "Yogini Ekadashi",
+          "name_mr": "योगिनी एकादशी",
+          "type": "Ekadashi"
+        },
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-06-25": [
+        {
+          "name_en": "Nirjala Ekadashi",
+          "name_mr": "निर्जला एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-06-26": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-06-29": [
+        {
+          "name_en": "Vat Purnima",
+          "name_mr": "वट पौर्णिमा",
+          "type": "Festival"
+        }
+      ]
+    },
+    "07": {
+      "2026-07-03": [
+        {
+          "name_en": "Sankashti Chaturthi",
+          "name_mr": "संकष्टी चतुर्थी",
+          "type": "Chaturthi"
+        }
+      ],
+      "2026-07-10": [
+        {
+          "name_en": "Yogini Ekadashi (Smart)",
+          "name_mr": "योगिनी एकादशी (स्मार्त)",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-07-11": [
+        {
+          "name_en": "Yogini Ekadashi (Bhagwat)",
+          "name_mr": "योगिनी एकादशी (भागवत)",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-07-12": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-07-13": [
+        {
+          "name_en": "Somvati Amavasya",
+          "name_mr": "सोमवती अमावस्या",
+          "type": "Amavasya"
+        }
+      ],
+      "2026-07-14": [
+        {
+          "name_en": "Darsh Amavasya",
+          "name_mr": "दर्श अमावस्या",
+          "type": "Amavasya"
+        }
+      ],
+      "2026-07-25": [
+        {
+          "name_en": "Devshayani Ashadhi Ekadashi",
+          "name_mr": "देवशयनी आषाढी एकादशी",
+          "type": "Festival"
+        }
+      ],
+      "2026-07-26": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-07-29": [
+        {
+          "name_en": "Guru Purnima",
+          "name_mr": "गुरु पौर्णिमा",
+          "type": "Festival"
+        }
+      ]
+    },
+    "08": {
+      "2026-08-08": [
+        {
+          "name_en": "Aja Ekadashi",
+          "name_mr": "अजा एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-08-10": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-08-17": [
+        {
+          "name_en": "Nag Panchami",
+          "name_mr": "नाग पंचमी",
+          "type": "Festival"
+        }
+      ],
+      "2026-08-23": [
+        {
+          "name_en": "Shravana Putrada Ekadashi",
+          "name_mr": "श्रावण पुत्रदा एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-08-25": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-08-28": [
+        {
+          "name_en": "Narali Purnima / Raksha Bandhan",
+          "name_mr": "नारळी पौर्णिमा / रक्षाबंधन",
+          "type": "Festival"
+        }
+      ]
+    },
+    "09": {
+      "2026-09-04": [
+        {
+          "name_en": "Gokulashtami",
+          "name_mr": "गोकुळाष्टमी",
+          "type": "Festival"
+        }
+      ],
+      "2026-09-07": [
+        {
+          "name_en": "Parivartini Ekadashi",
+          "name_mr": "परिवर्तिनी एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-09-08": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-09-14": [
+        {
+          "name_en": "Ganesh Chaturthi",
+          "name_mr": "गणेश चतुर्थी",
+          "type": "Festival"
+        }
+      ],
+      "2026-09-22": [
+        {
+          "name_en": "Indira Ekadashi",
+          "name_mr": "इंदिरा एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-09-24": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ]
+    },
+    "10": {
+      "2026-10-06": [
+        {
+          "name_en": "Papankusha Ekadashi",
+          "name_mr": "पापांकुशा एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-10-08": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-10-11": [
+        {
+          "name_en": "Ghatasthapana (Navratri begins)",
+          "name_mr": "घटस्थापना (नवरात्री प्रारंभ)",
+          "type": "Festival"
+        }
+      ],
+      "2026-10-20": [
+        {
+          "name_en": "Dussehra",
+          "name_mr": "दसरा",
+          "type": "Festival"
+        }
+      ],
+      "2026-10-21": [
+        {
+          "name_en": "Rama Ekadashi",
+          "name_mr": "रमा एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-10-23": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-10-25": [
+        {
+          "name_en": "Kojagiri Purnima",
+          "name_mr": "कोजागिरी पौर्णिमा",
+          "type": "Festival"
+        }
+      ]
+    },
+    "11": {
+      "2026-11-04": [
+        {
+          "name_en": "Utthana Ekadashi",
+          "name_mr": "उत्थाना एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-11-06": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-11-08": [
+        {
+          "name_en": "Diwali (Laxmi Pujan)",
+          "name_mr": "दिवाळी (लक्ष्मी पूजन)",
+          "type": "Festival"
+        }
+      ],
+      "2026-11-09": [
+        {
+          "name_en": "Diwali Padwa",
+          "name_mr": "दिवाळी पाडवा",
+          "type": "Festival"
+        }
+      ],
+      "2026-11-10": [
+        {
+          "name_en": "Bhaubeej",
+          "name_mr": "भाऊबीज",
+          "type": "Festival"
+        }
+      ],
+      "2026-11-20": [
+        {
+          "name_en": "Kartiki Ekadashi",
+          "name_mr": "कार्तिकी एकादशी",
+          "type": "Festival"
+        }
+      ],
+      "2026-11-21": [
+        {
+          "name_en": "Tulsi Vivah",
+          "name_mr": "तुळशी विवाह",
+          "type": "Festival"
+        }
+      ],
+      "2026-11-22": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ]
+    },
+    "12": {
+      "2026-12-04": [
+        {
+          "name_en": "Utpanna Ekadashi",
+          "name_mr": "उत्पन्ना एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-12-06": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-12-20": [
+        {
+          "name_en": "Mokshada Ekadashi",
+          "name_mr": "मोक्षदा एकादशी",
+          "type": "Ekadashi"
+        }
+      ],
+      "2026-12-21": [
+        {
+          "name_en": "Pradosh Vrat",
+          "name_mr": "प्रदोष व्रत",
+          "type": "Pradosh"
+        }
+      ],
+      "2026-12-23": [
+        {
+          "name_en": "Datta Jayanti",
+          "name_mr": "दत्त जयंती",
+          "type": "Festival"
+        }
+      ]
+    }
+  }
+}
